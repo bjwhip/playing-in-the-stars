@@ -4,15 +4,13 @@ Rails.application.routes.draw do
 
   get 'pages/themepark'
 
-  get 'pages/movies'
-
   get 'pages/cart'
 
   get 'pages/music'
 
   get 'pages/app'
 
-  get 'pages/404'
+  get 'pages/not_found'
 
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  root to: 'pages#home'
 end

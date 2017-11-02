@@ -14,6 +14,6 @@ class PagesController < ApplicationController
   def app
   end
 
-  def 404
+  def not_found
   end
 end
