@@ -1,16 +1,15 @@
 Rails.application.routes.draw do
   resources :movies
-  get 'pages/home'
 
-  get 'pages/themepark'
+  get 'themepark', to: "pages#themepark"
 
-  get 'pages/movies'
+  get 'movies', to: "pages#movies"
 
-  get 'pages/cart'
+  get 'cart', to: "pages#cart"
 
-  get 'pages/music'
+  get 'music', to: "pages#music"
 
-  get 'pages/app'
+  get 'app', to: "pages#app"
 
   get 'pages/404'
 
