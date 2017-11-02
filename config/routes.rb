@@ -9,7 +9,7 @@ Rails.application.routes.draw do
 
   get 'app', to: "pages#app"
 
-  get 'pages/not_found'
+  get 'not_found', to: "pages#not_found"
 
   root to: 'pages#home'
 end
