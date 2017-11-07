@@ -1,4 +1,8 @@
 module ApplicationHelper
+  
+  def copyright_generator
+      SockViewTool::Renderer.copyright 'All Knowing Sock', 'All Rights Reserved'
+  end
 
   def nav_items
     [
@@ -42,5 +46,7 @@ module ApplicationHelper
   def active? path
     "active" if current_page? path
   end
+
+
 
 end
