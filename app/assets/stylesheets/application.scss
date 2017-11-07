@@ -1,1 +1,8 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Cantarell');
+@import "movies";
+@import "pages";
+
+body {
+  font-family: 'Cantarell', sans-serif;
+}
