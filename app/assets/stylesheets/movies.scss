@@ -1,13 +1,11 @@
-.slider {
-
-}
-
 .slider-content {
+padding: 6px;
 
 }
 
 .slider-item {
-width:16%;
-margin-left: 10px;
-float: left;
+  padding: 6px;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
 }
