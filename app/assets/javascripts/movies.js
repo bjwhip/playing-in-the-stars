@@ -1,4 +1,3 @@
-<script>
 jQuery('.card-media-yt').mouseover(function(){
 var ytplayer = jQuery("#" + this.id);
 var playersrc= jQuery(ytplayer).attr('src');
@@ -12,8 +11,3 @@ jQuery(ytplayer).mouseout(function(){
   jQuery(ytplayer).attr('src',playersrc);
 });
 });
-</script>
-
-<div class="videowraper">
-<iframe class="card-media-yt" id="player-778" src="http://www.youtube.com/embed/wav6nalMRog?controls=0&amp;showinfo=0&amp;modestbranding=1&amp;wmode=opaque&amp;rel=0" frameborder="0"></iframe>
-</div>
