@@ -3,11 +3,13 @@
 }
 
 .slider-content {
+padding: 6px;
 
 }
 
 .slider-item {
-padding: 5px;
-display: block;
-height: auto;
+  padding: 6px;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
 }
